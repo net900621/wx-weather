@@ -1,0 +1,20 @@
+<view class="container">
+
+<view class="section">
+	<input placeholder="请输入城市名称" type="text" bindinput="bindKeyInput" />
+</view>
+<view class="button-wrapper">
+    <button type="primary" bindtap="searchWeathes">确认</button>
+</view>
+<block wx:if="{{weathes}}">
+<view>
+	<text>城市：{{weathes.city}}</text>
+</view>
+<view>
+	<text>天气：{{weathes.weather}}</text>
+</view>
+<view>
+	<text>气温：{{weathes.temp1}} ~ {{weathes.temp2}}</text>
+</view>
+</block>
+</view>

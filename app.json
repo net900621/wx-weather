@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#28282c",
+    "navigationBarTitleText": "天气demo",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#ffffff"
+  }
+}
